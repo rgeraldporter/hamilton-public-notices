@@ -1,0 +1,23 @@
+{
+  "name": "hammer-scraper",
+  "preferGlobal": false,
+  "version": "0.1.0",
+  "author": "Robert Gerald Porter <rob@weeverapps.com>",
+  "description": "Scrapes the City of Hamilton's Public Notices Page for Development Notices",
+  "contributors": [ 
+    {
+      "name": "Robert Gerald Porter",
+      "email": "rob@weeverapps.com"
+    } 
+  ],
+  "dependencies" : {
+    "es6-promise":  "*",
+    "jsdom":   "*",
+    "query-selector":   "*",
+    "twitter-js-client": "BoyCook/TwitterJSClient"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
